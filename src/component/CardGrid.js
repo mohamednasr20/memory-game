@@ -13,7 +13,7 @@ const CardGrids = (props) => {
 
   return (
     <div className="container pb-5">
-      <div className="row">{cards}</div>
+      <div className="row ">{cards}</div>
     </div>
   );
 };

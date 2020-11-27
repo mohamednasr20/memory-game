@@ -65,7 +65,7 @@ const Game = () => {
           gameRestart={gameRestart}
         />
       ) : (
-        <div>
+        <div className="m-auto">
           <ScoreBoard score={score} highScore={highScore} />
           <CardGrids pokeNames={pokeNames} selectPokemon={selectPokemon} />
         </div>
